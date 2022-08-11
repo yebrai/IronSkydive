@@ -86,6 +86,12 @@ h2 {
     font-size: 2em;
     font-weight: 100;
     text-align: center;
+    margin: 20 0 0 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
 }
 .link-btn {
     background-color: var(--blue);
@@ -99,6 +105,10 @@ h2 {
 .service-box {
     font-size: 1.7em;
     text-align: center;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #eee;
 }
 .service-box img {
     width: 125px;
