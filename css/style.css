@@ -43,19 +43,29 @@ h5 {
 }
 .nav-bar {
     background-color: var(--darkblue);
+    list-style: none;
+    padding: 14px;
  
 }
 .nav-bar a {
     text-decoration: none;
     font-size: 2em;
     color: white;
-    
   }
+.nav-bar-ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-bar-ul li {
+    list-style-type: none;
+    text-align: center;
+}
 .header {
     background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 50px;
 }
 header {
     height: 650px;
